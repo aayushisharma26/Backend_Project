@@ -3,7 +3,7 @@ const express=require('express')
 
 var router=express.Router();
 
-router.post("/",signup)
+router.post("/signup",signup)
 
 router.post("/login",login)
 
